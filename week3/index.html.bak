@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>HOME</title>
-<link rel="icon" type="image/jpg" href="week3/jarvis.jpg" />
+<link rel="icon" type="image/jpg" href="week3/jarvis.jpg">
 </head>
 <body>
 
@@ -17,12 +17,17 @@ img {
 }
 
 </style>
+
+<div>
 <p style="background-color:white;font-family:courier;text-align:center;">I am a 20-year-old chronically online, second-year IT student studying at Asia Pacific College. My hobbies are keeping up with pop culture, listening to music <del>stan SZA</del>, and watching films.</P>
 <!-- <p>This is my description </p> -->
 <p style="background-color:white;font-family:courier;text-align:center;">Contact Me:</p>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</div>
+
 
 <!-- Add font awesome icons -->
+<div style= "text-align:center;">
 <a href="https://www.facebook.com/jarvis.carpo" class="fa fa-facebook" ></a>
 <a href="https://twitter.com/kandydroppe" class="fa fa-twitter"></a> 
 <a href="https://www.instagram.com/kandydroppe/" class="fa fa-instagram"></a>
@@ -55,6 +60,7 @@ img {
 
 }
 </style>
+</div>
 
 </body>
 </html>
