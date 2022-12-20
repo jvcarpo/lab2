@@ -13,8 +13,7 @@
 } 
 
 body{
-	background-color:#737CA1;
-	border:2px solid white;
+	background-image:"sky.png";
 }
 
 </style>
