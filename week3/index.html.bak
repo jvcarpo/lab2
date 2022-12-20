@@ -3,22 +3,27 @@
 <head>
 <title>HOME</title>
 <style>
+
 #myHeader {
   background-color: white;
   color: black;
   padding: 50px;
   text-align: center;
 } 
+
 </style>
 <link rel="icon" type="image/jpg" href="week3/jarvis.jpg">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
 
 <body style="background-color:powderblue;border:2px solid white;">
-<h1 id= "myHeader">Jarvis Carpo</h1>
+<h1 id= "myHeader"> Jarvis Carpo</h1>
 <img src="jarvis.jpg" height="277">
+
 <style>
+
 img {
   display: block;
   margin-left: auto;
