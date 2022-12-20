@@ -31,7 +31,7 @@ p,h1 {
 <body>
 <h1 id= "myHeader"> Jarvis Carpo</h1>
 <img src="jarvis.jpg" height="277">
-
+<img src ="sky.png">
 <style>
 
 img {
@@ -58,7 +58,7 @@ img {
 <a href="https://www.instagram.com/kandydroppe/" class="fa fa-instagram"></a>
 <style>
 .fa {
-  padding: 20px;
+  padding: 10px;
   font-size: 30px;
   width: 30px;
   text-align: center;
