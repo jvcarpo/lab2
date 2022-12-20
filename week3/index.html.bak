@@ -16,7 +16,7 @@ body{
 	background-image:url("sky.png");
 }
 
-p {
+p,h1 {
   border: 2px solid red;
   border-radius: 5px;
 }
