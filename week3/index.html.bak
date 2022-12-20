@@ -13,7 +13,12 @@
 } 
 
 body{
-	background-image:"sky.png";
+	background-image:url("sky.png");
+}
+
+p {
+  border: 2px solid red;
+  border-radius: 5px;
 }
 
 </style>
