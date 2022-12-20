@@ -9,7 +9,13 @@
   color: black;
   padding: 50px;
   text-align: center;
+  
 } 
+
+body{
+	background-color:#737CA1;
+	border:2px solid white;
+}
 
 </style>
 <link rel="icon" type="image/jpg" href="week3/jarvis.jpg">
@@ -18,7 +24,7 @@
 
 <body>
 
-<body style="background-color:powderblue;border:2px solid white;">
+<body>
 <h1 id= "myHeader"> Jarvis Carpo</h1>
 <img src="jarvis.jpg" height="277">
 
