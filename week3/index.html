@@ -7,8 +7,8 @@
 #myHeader {
   background-color: white;
   color: black;
-  padding: 50px;
-  text-align: center;
+  padding: 25px;
+  text-align: left;
   
 } 
 
@@ -43,6 +43,19 @@ p,h1 {
   color: black;
 }
 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 </style>
 <link rel="icon" type="image/jpg" href="week3/jarvis.jpg">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -56,7 +69,7 @@ p,h1 {
 </div>
 
 <body>
-<h1 id= "myHeader"> Jarvis Carpo</h1>
+<h1 id= "myHeader"> Welcome!</h1>
 <img src="jarvis.jpg" height="277">
 <style>
 
@@ -67,14 +80,26 @@ img {
   margin-right: auto;
 }
 
+
 </style>
+
 
 
 <div>
 <p style="background-color:white;font-family:courier;text-align:center;">I am a 20-year-old chronically online, second-year IT student studying at Asia Pacific College. My hobbies are keeping up with pop culture, listening to music <del>stan SZA</del>, and watching films.</P>
 <!-- <p>This is my description </p> -->
 <p style="background-color:white;font-family:courier;text-align:center;"> Current Favorite</p>
-<img style= "border-radius:5px;" src="ru.png" height="277">
+<div class="row">
+  <div class="column">
+    <img src="HTG.jpg" alt="Snow" style="width:50%">
+  </div>
+  <div class="column">
+    <img src="SOS.jpg" alt="Forest" style="width:50%">
+  </div>
+  <div class="column">
+    <img src="beetopia.jpg" alt="Mountains" style="width:50%">
+  </div>
+</div>
 <p style="background-color:white;font-family:courier;text-align:center;">Contact Me:</p>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </div>
