@@ -56,6 +56,11 @@ p,h1 {
   display: table;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+
 </style>
 <link rel="icon" type="image/jpg" href="week3/jarvis.jpg">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -100,6 +105,13 @@ img {
     <img src="beetopia.jpg" alt="Mountains" style="width:50%">
   </div>
 </div>
+<p style="background-color:white;font-family:courier;text-align:center;">Yassify her </p>
+<button onclick="document.getElementById('before').src='yassified.jpg'">Yassified</button>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='before.jpg'">Naurified</button>
+
 <p style="background-color:white;font-family:courier;text-align:center;">Contact Me:</p>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </div>
