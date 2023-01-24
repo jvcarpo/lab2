@@ -94,9 +94,9 @@ img {
 alert("Website  is still a woring progress! Final and fixed version coming soon");
 </script>
 <div>
-<p style="background-color:white;font-family:courier;text-align:center;">I am a 20-year-old chronically online, second-year IT student studying at Asia Pacific College. My hobbies are keeping up with pop culture, listening to music <del>stan SZA</del>, and watching films.</P>
+<p  onclick = "this.innerHTML = 'meh' " style="background-color:white;font-family:courier;text-align:center;">I am a 20-year-old chronically online, second-year IT student studying at Asia Pacific College. My hobbies are keeping up with pop culture, listening to music <del>stan SZA</del>, and watching films.</P>
 <!-- <p>This is my description </p> -->
-<p style="background-color:white;font-family:courier;text-align:center;"> Current Favorite</p>
+<p id="favecolor" style="background-color:white;font-family:courier;text-align:center;"> Current Favorite</p>
 <div class="row">
   <div class="column">
     <img src="HTG.jpg" alt="Snow" style="width:50%">
@@ -109,8 +109,10 @@ alert("Website  is still a woring progress! Final and fixed version coming soon"
   </div>
 </div>
 
+<button id="favecolor" onclick="document.getElementById('favecolor').style.color. = 'red'">See My favorite color</button>
+
 <p style="background-color:white;font-family:courier;text-align:center;">Yassify her </p>
-<button onclick="document.getElementById('myImage').src='yassified.jpg'">Yassified</button>
+<button  onclick="document.getElementById('myImage').src='yassified.jpg'">Yassified</button>
 <img id="myImage" src="before.jpg" style="width:100px">
 <button onclick="document.getElementById('myImage').src='before.jpg'">Naurified</button>
 <h3 style="text-align:center;" id="try"></header>
