@@ -109,7 +109,7 @@ alert("Website  is still a woring progress! Final and fixed version coming soon"
   </div>
 </div>
 
-<button id="favecolor" onclick="document.getElementById('favecolor').style.color. = 'red'">See My favorite color</button>
+<button onclick="document.getElementById('favecolor').style.color. = 'red'">See My favorite color</button>
 
 <p style="background-color:white;font-family:courier;text-align:center;">Yassify her </p>
 <button  onclick="document.getElementById('myImage').src='yassified.jpg'">Yassified</button>
@@ -122,7 +122,29 @@ let x = "Toni Collette is an icon";
 document.getElementById("try").innerHTML = x;
 </script>
 
-<p style="background-color:white;font-family:courier;text-align:center;">Contact Me:</p>
+<p style="background-color:white;font-family:courier;text-align:center;">Something Cool </p>
+<style>
+#mouse {
+  background-color: red;
+  border: 1px solid;
+  padding: 50px;
+  color: white;
+  font-size: 20px;
+}
+</style>
+
+<div id = "mouse">
+<p> saw this on the W3 website and i found it cool and interesting. I just want to try it out myself lol</p>
+<p id="demo"></p>
+
+<script>
+document.getElementById("mouse").addEventListener("mousemove", myFunction);
+function myFunction() {
+  document.getElementById("demo").innerHTML = Math.random();
+}
+</script>
+
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </div>
 
