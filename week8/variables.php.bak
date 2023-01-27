@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body> 
+
+<?php
+$txt = "Hello WEBPROG week 8!";
+$x = 5; 
+$y = 10.5; 
+
+echo $txt;
+echo "<br>";
+echo $x;
+echo "<br>";
+echo $y;
+?>
+
+</body>
+</html>

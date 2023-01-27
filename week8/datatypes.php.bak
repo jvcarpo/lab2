@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php  
+$x = 999;
+$y = "Im a string";
+var_dump($x);
+echo $y;
+?>  
+
+</body>
+</html>
