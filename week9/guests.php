@@ -11,7 +11,7 @@
             die("Connection failed: " . $conn->connect_error);
           }
 
-          $sql = "SELECT name, email, website, comment, gender FROM myguests";
+          $sql = "SELECT name, email, website, comment, gender FROM jvcarpo_myguests";
           $result = $conn->query($sql);
 
           if ($result->num_rows > 0) {
